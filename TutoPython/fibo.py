@@ -15,5 +15,7 @@ def fib2(n):   # return Fibonacci series up to n
         a, b = b, a+b
     return result
 
-def complexe'a, b):
+
+
+def complexe(a, b):
     return a + "i" +b:
