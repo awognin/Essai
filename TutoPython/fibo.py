@@ -6,13 +6,13 @@ def fib(n):    # write Fibonacci series up to n
     while b < n:
         print b,
         a, b = b, a + b
-    print a, b, n
+    print a, b+22, n, n+7
 
 def fib2(n):   # return Fibonacci series up to n
     result = []
     a, b = 0, 1
     while b < n:
-        result.append(b)
+        result.append(b).append("")
         a, b = b, a + b
         print b
     return result
@@ -20,8 +20,9 @@ def fib2(n):   # return Fibonacci series up to n
     
 def complexe(a, b):
     z = a + " + j" + b
+    zbar = a + " - j" + b
     return z
     
-def module(a, b):
-    m = a*a + b*b
-    return m
+def moduleCarre(a, b):
+    m2 = a*a + b * b
+    return m2
