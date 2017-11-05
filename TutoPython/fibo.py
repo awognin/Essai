@@ -19,3 +19,7 @@ def fib2(n):   # return Fibonacci series up to n
 def complexe(a, b):
     z = a + " + i" + b
     return z
+    
+def module(a, b):
+    m = a*a + b*b
+    return m
