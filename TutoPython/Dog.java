@@ -2,7 +2,7 @@ public class Dog
 {
     //Instance vars
     private String name;
-    private int age;
+    private int age = 0;
     private double weight;
 
     //constructor
@@ -48,10 +48,15 @@ public class Dog
     {
         return weight;
     }
+    void barking() {
+    }
 
     public void setWeight()
     {
         weight = weight;
+    }
+    
+    void hungry() {
     }
 
     public String getData()
@@ -63,5 +68,9 @@ public class Dog
 
 
         return data;
-    }
+        
+   }
+   
+   void sleeping() {
+   }
 }
