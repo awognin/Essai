@@ -6,6 +6,7 @@ def fib(n):    # write Fibonacci series up to n
     while b < n:
         print b,
         a, b = b, a + b
+    print a, b, n
     print a, b+22, n, n+7
 
 def fib2(n):   # return Fibonacci series up to n
