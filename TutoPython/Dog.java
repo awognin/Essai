@@ -8,7 +8,7 @@ public class Dog
     //constructor
     public Dog(final String initName)  {
         theName = initName;
-        age = 0;
+        this.weight = 0;
     }
 
     //methods
