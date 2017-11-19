@@ -1,27 +1,25 @@
 public class Dog
 {
     //Instance vars
-    private String name;
+    private String theName;
     private int age = 0;
     private double weight;
 
     //constructor
-    public Dog(String initName)
-    {
-        name = initName;
+    public Dog(final String initName)  {
+        theName = initName;
         age = 0;
-        weight = 0;
     }
 
     //methods
     public String getName()
     {
-        return name;
+        return theName;
     }
 
     public void setName()
     {
-        return name;
+        return theName;
     }
 
     public int getAge()
@@ -62,7 +60,7 @@ public class Dog
     public String getData()
     {
         String data = "";
-        data = name;
+        data = theName;
         data = data + "\n\tAge: " + age;
         data = data + "\n\tWeight: " + weight;
 
