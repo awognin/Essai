@@ -6,11 +6,10 @@ public class Dog
     private double weight;
 
     //constructor
-    public Dog(String initName)
-    {
-        name = initName;
-        age = 0;
-        weight = 0;
+    public Dog(String initName) {
+        this.name = initName;
+        this.age = 0;
+        this.weight = 0;
     }
 
     //methods
